@@ -23,7 +23,7 @@ documents = [
     "É usado em áreas como reconhecimento de voz, imagens e recomendação de conteúdo.",
 ]
 # documents
-# preprocessed_docs = [" ".join(preprocess(doc)) for doc in documents]
-# print(preprocessed_docs)
+preprocessed_docs = [" ".join(preprocess(doc)) for doc in documents]
+print(preprocessed_docs)
 
 # %%
